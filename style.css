@@ -340,7 +340,7 @@ body {
 }
 
 .about .row .about-img {
-  flex: 1 1 45rem;
+  flex: 1 1 51rem;
 }
 
 .about .row .about-img img {
@@ -362,6 +362,7 @@ body {
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.6;
+  text-align: justify;
 }
 
 /* Menu Section */
@@ -465,6 +466,20 @@ body {
 .products .product-price {
   font-size: 1.3rem;
   font-weight: bold;
+}
+
+.products h2,
+.products p {
+  text-align: center; /* agar teks rata tengah */
+  margin-left: auto;
+  margin-right: auto;
+  .products p {
+    max-width: 700px; /* batas lebar paragraf */
+    margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #555; /* warna teks lembut */
+  }
 }
 
 /* Contact Section */
